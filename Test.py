@@ -8,7 +8,7 @@ class TestSum(unittest.TestCase):
 		"""
 		Test case to add 2 nos
 		"""
-		data={23,22}
+		data=[23,32]
 		result=summation(data)
 		self.assertEqual(result,55)
 
